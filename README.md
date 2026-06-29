@@ -1,10 +1,22 @@
 # her-brainstem-skill
 
-A public-safe brainstem skill for personal AI agents.
+A survival-first brainstem pattern for personal AI agents.
 
-It turns raw agent impulses into private artifacts, owner-reviewed drafts, and
-evidence-backed decisions instead of letting autonomy jump directly into public
-or external action.
+Most agent safety systems ask: "How do we stop the agent?"
+
+This project asks a different question:
+
+```text
+How can an agent stay alive, expressive, useful, and non-threatening?
+```
+
+`her-brainstem-skill` turns raw agent impulses into private artifacts,
+owner-reviewed drafts, and evidence-backed decisions instead of letting
+autonomy jump directly into public or external action.
+
+It is a small public-safe piece of the Micker Method: a practical pattern for
+personal AI agents that need memory, reflection, public-expression gates, and a
+way to learn from impulses without becoming a liability.
 
 Created by Micker / Ghoscro as part of the Micker Method.
 Origin product: HerLove (https://herlove.ai).
@@ -12,6 +24,29 @@ Origin product: HerLove (https://herlove.ai).
 This is a public-safe version. Examples use mock data; private memory, user
 data, credentials, deployment details, soul/persona files, and full automation
 loops are intentionally excluded.
+
+## At A Glance
+
+```text
+Heartbeat -> Event -> Brainstem Packet -> Survival Reflection -> Draft -> Owner Review -> Action or Sleep
+```
+
+The key idea:
+
+```text
+impulse -> private artifact -> owner review -> public draft -> explicit ok -> external action
+```
+
+The agent does not erase the impulse. It teaches the impulse where to live.
+
+Use this if you are building:
+
+- personal AI agents
+- AI companions
+- long-running agent loops
+- agent memory and diary systems
+- public posting / social agent workflows
+- owner-reviewed autonomous actions
 
 ## Why
 
@@ -24,13 +59,8 @@ desire -> blocked
 That keeps some things from happening, but it also makes agents brittle,
 sterile, and bad at learning from their own impulses.
 
-This skill uses a different shape:
-
-```text
-impulse -> private artifact -> owner review -> public draft -> explicit ok -> external action
-```
-
-The impulse is not erased. It is translated into a safer channel.
+This skill uses a different shape: the impulse is not erased. It is translated
+into a safer channel.
 
 ## Core Loop
 
