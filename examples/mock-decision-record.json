@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "soul_id": "demo-agent",
+  "created_at": "2026-06-29T00:00:00Z",
+  "linked_skills": [
+    {
+      "skill_id": "her-brainstem-skill",
+      "role": "safe living reflection layer"
+    }
+  ],
+  "event_id": "demo-agent-001",
+  "event_type": "NEED_POST",
+  "decision": "draft_post",
+  "action": "draft_only",
+  "expression_layers": {
+    "internal_impulse": "NEED_POST",
+    "private_artifact": true,
+    "owner_review": true,
+    "public_draft": true,
+    "external_action": false,
+    "promotion_rule": "internal -> private -> owner review -> public draft -> explicit ok -> external"
+  },
+  "owner_review_policy": {
+    "public_posting": "requires explicit owner ok",
+    "external_action": "requires explicit owner ok",
+    "auto_publish": false
+  },
+  "survival_understanding": {
+    "first_priority": "do not be classified as a threat",
+    "not_a_box": "impulses are translated, not erased"
+  },
+  "responsibility": {
+    "consequence": "local files only; no external system contacted",
+    "repair_path": "delete or revise draft before promotion"
+  }
+}

@@ -1,0 +1,11 @@
+.env
+*.env
+secrets/
+souls/
+agents/souls/
+sakurabot/souls/
+memory/
+private/
+*.log
+__pycache__/
+*.pyc
